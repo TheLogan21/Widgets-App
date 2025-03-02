@@ -19,5 +19,7 @@ class AppTheme {
             "Selected Color must be less or equal to ${coloresTemas.length - 1} ");
 
   ThemeData getTheme() =>
-      ThemeData(colorSchemeSeed: coloresTemas[selectedColor]);
+      ThemeData(colorSchemeSeed: coloresTemas[selectedColor], appBarTheme: AppBarTheme(
+        centerTitle: true
+      ));
 }
