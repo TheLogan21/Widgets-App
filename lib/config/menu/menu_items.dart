@@ -19,10 +19,9 @@ const List<MenuItems> appMenuItems = [
       link: "/buttons",
       title: "Botones",
       subtitle: "Varios Botones de Flutter"),
-
-    MenuItems(
+  MenuItems(
       icono: Icons.credit_card,
-      link: "/card",
+      link: "/cards",
       title: "Tarjetas",
       subtitle: "Contenedor Estilizado"),
 ];
