@@ -169,21 +169,28 @@ class _CardsType4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      clipBehavior: Clip.hardEdge,
       elevation: elevation,
-      child: Padding(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
-        child: Stack(
-          children: [
-            Image.network(
-                "https://media.istockphoto.com/photos/portrait-of-a-photographer-picture-id455809281?b=1&k=6&m=455809281&s=170x170&h=zHjkrMXBkFgIt6uYQN7Wiu8E3l4-3bDtmOQNY9iMahY="),
-            Align(
-                alignment: Alignment.topRight,
+      child: Stack(
+        children: [
+          Image.network(
+            "https://media.istockphoto.com/photos/portrait-of-a-photographer-picture-id455809281?b=1&k=6&m=455809281&s=170x170&h=zHjkrMXBkFgIt6uYQN7Wiu8E3l4-3bDtmOQNY9iMahY=",
+            height: 350,
+            fit: BoxFit.cover,
+          ),
+          Align(
+              alignment: Alignment.topRight,
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius:
+                        BorderRadius.only(bottomLeft: Radius.circular(25))),
                 child: IconButton(
                   onPressed: () {},
                   icon: Icon(Icons.more_vert),
-                )),
-          ],
-        ),
+                ),
+              )),
+        ],
       ),
     );
   }
