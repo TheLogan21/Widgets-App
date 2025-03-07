@@ -49,4 +49,9 @@ const List<MenuItems> appMenuItems = [
       link: "/app_tutorial",
       title: "APP Tutorial",
       subtitle: "¿Tutorial?"),
+  MenuItems(
+      icono: Icons.all_out_sharp,
+      link: "/infinite_scroll",
+      title: "Infinite Scroll",
+      subtitle: "Infinito?"),
 ];
