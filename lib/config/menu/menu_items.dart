@@ -15,6 +15,11 @@ class MenuItems {
 
 const List<MenuItems> appMenuItems = [
   MenuItems(
+      icono: Icons.add_circle_outline_rounded,
+      link: "/counter_screen",
+      title: "RiverPod Counter ",
+      subtitle: "Sumamos +1"),
+  MenuItems(
       icono: Icons.smart_button_rounded,
       link: "/buttons",
       title: "Botones",
