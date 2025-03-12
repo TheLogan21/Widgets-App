@@ -8,4 +8,5 @@ export 'package:widgets_app/Presentation/Screens/infinite_scroll/infinite_scroll
 export 'package:widgets_app/Presentation/Screens/progress/progress_screen.dart';
 export 'package:widgets_app/Presentation/Screens/snackbar/snack_bar_screen.dart';
 export 'package:widgets_app/Presentation/Screens/UI_controls/ui_controlls_screen.dart';
+export 'package:widgets_app/Presentation/Screens/theme_changer_screen/theme_changer.dart';
 //esto es un archivo de barril

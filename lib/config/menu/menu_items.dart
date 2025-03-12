@@ -59,4 +59,9 @@ const List<MenuItems> appMenuItems = [
       link: "/infinite_scroll",
       title: "Infinite Scroll",
       subtitle: "Infinito?"),
+  MenuItems(
+      icono: Icons.format_paint_outlined,
+      link: "/theme_changer",
+      title: "Theme Changer",
+      subtitle: "Cambiar el color del tema"),
 ];
