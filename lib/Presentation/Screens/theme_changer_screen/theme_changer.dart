@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/Presentation/providers/theme_provider.dart';
-import 'package:widgets_app/config/Theme/app_theme.dart';
 
 class ThemeChanger extends ConsumerWidget {
   static const name = "theme_changer";
@@ -11,6 +10,7 @@ class ThemeChanger extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     bool clickTheme = ref.watch(themeProvider);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text("Theme Changer"),
