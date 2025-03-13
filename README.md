@@ -1,3 +1,4 @@
 # widgets_app
 
-A new Flutter project.
+Proyecto practico que demuestran los widgets de Flutter y su implementacion 
+Uso de Riverpod, cambios de temas y aplicacion de codigo limpio
